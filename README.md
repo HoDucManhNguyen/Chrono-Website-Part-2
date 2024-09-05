@@ -89,6 +89,65 @@ If the input data does not meet format requirements, errors should be returned t
 ***Hint: error msg back to fix_order could be string or an array.*** </br>
 
 If the input data is correctly validated by “process_orders.php”:
+* Calculate the total cost of the order (do not rely on the client to send this information).
+* Store the order in the orders table using a mysqli query.
+* Return an order receipt webpage **“receipt.php”** to the user. This page should include all
+the information stored in the record including the **order_id** and **order_status**.
+
+The “process_order.php” page should not produce a html page. It should only process data and pass data to other webpages. (During development you might want to have this script echo back data.) </br>
+
+The “process_order.php” page should include a check that if the database table ‘orders’ does not exist then create it. </br>
+
+***The “process_order.php”, “fix_order.php” and “receipt.php” pages should not be able to be accessed directly by url through a browser.***
+
+*Hint: check what data has been set and redirect.*
+
+### 6. Managers Order report and Order Update Page “manager.php”
+
+For convenience add an extra menu item to access this new Manager page. </br>
+
+This web page allows the Manager to make queries about orders, display the result in an HTML table and update the status of an order. </br>
+
+For each query clearly display: order number, order date, full details of the product including the cost, only the customer’s first and last names, order status. No credit card details should be displayed. </br>
+
+To make the display presentable and easily readable, you might need to concatenate some fields.
+The web page should give the manager the option to display:
+* All orders
+* Orders for a customer based on their name
+* Orders for a particular product
+* Orders that are pending
+* Orders sorted by total cost
+
+The Manager should be able to ‘update’ the status of an order from a link or button next to the order in the table, changing the status from (pending | fulfilled | paid | archived). </br>
+
+The Manager can also ‘cancel’ (ie. ‘delete’) an order via this page. Only pending orders can be cancelled.
+
+## CSS
+
+All pages should be styled appropriately using CSS as in Part 1, and should be valid CSS3.
+
+## Enhancements
+
+As with Part 1 you have an opportunity to extend your learning by adding extensions/ enhancements to the main pages of your Web site, using techniques not covered in the tutorials. </br>
+
+Briefly **list** and **describe** each enhancement implemented on a page called **enhancements3.php**:
+* What it does and how it goes beyond the specified requirements.
+* What does a programmer have to do to implement the feature.
+* Reference any third party sources used to create the extension/enhancement
+
+In this assignment we will consider PHP and MySQL enhancements. </br>
+You are encouraged to be creative in thinking up possible enhancements. </br>
+
+Examples of PHP / MySQL enhancements:
+* Create Manager security, with a “Manager registration” page with server side validation requiring a unique username and a password rule, and store this information in a table. Create a “Manager Log-in” page to use the stored data, and control access to the manager web pages. Ensure the manager web page cannot be entered directly using a URL. </br>
+Create a “Manager Log-out” page. Provide a ‘log-out’ link on the manager page if ‘logged in’.
+* Provide a number of more advanced Manager reports based on compound queries. </br>
+For example
+* the most popular product ordered
+* fulfilled orders purchased between two dates the vendor enters othe average number of orders per day
+  
+
+
 
 
 
