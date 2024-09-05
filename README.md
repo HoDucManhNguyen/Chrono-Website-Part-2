@@ -79,8 +79,18 @@ Ensure the “payment.php” form action to “process_order.php”. Having disa
 * All values received by “process_order.php” should be sanitized to remove leading and trailing spaces, backslashes and HTML control characters.
 * Before an order is written to the **orders** table the data format rules need to be checked. These rules include rules specified in Part 1 (for customer details), rules for credit card (shown below) and other rules you think appropriate:
   + Credit card type must be one of Visa, Mastercard, or American Express
-  + Creditcardnumber:exactly15or16digits.Creditcardnumbersmustbechecked against the selected card type according to the following rules:
-    * Visacardshave16digitsandstartwitha4
+  + Credit cardnumber: exactly 15 or 16 digits. Credit card numbers must be checked against the selected card type according to the following rules:
+    * Visa cards have 16 digits and start with a 4
+    * Master Card have 16 digits and start with digits 51 through to 55
+    * American Express has 15 digits and starts with 34 or 37.
+
+If the input data does not meet format requirements, errors should be returned to “fix_order.php” a form version of the ‘payment’ page, and display all form control fields filled with data entered in enquire page and payment page, and with errors marked or highlighted. Do not fill the Credit Card details, these will need to be re-entered. The “fix_order.php” form should submit back to “process_order.php”, using method post. </br>
+
+***Hint: error msg back to fix_order could be string or an array.*** </br>
+
+If the input data is correctly validated by “process_orders.php”:
+
+
 
 
 
