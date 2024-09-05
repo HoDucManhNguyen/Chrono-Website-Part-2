@@ -1,0 +1,582 @@
+/* 
+filename: style.css 
+author: Nguyen Duy Khang
+author: Nguyen Ho Duc Manh
+author: 
+author: 
+created: 10/02/2023
+last modified: 27/02/2023
+description: main css for all html files
+*/
+
+/* CSS applies to all starts */
+:root {
+  --nav-background: #1A001A;
+  --nav-active: #7068a4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 0.8px;
+  font-family: sans-serif;
+  /* list-style: none; */
+}
+
+/* CSS applies to all ends */
+
+
+/* The body section starts */
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  color: var(--nav-background);
+}
+
+/* The body section ends */
+
+/* The footer section starts */
+footer {
+  display: block;
+  width: 100%;
+  font-size: small;
+  padding: 20px 0px;
+  background-color: var(--nav-background);
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.contact {
+  padding: 10px 0;
+  font-family: Montserrat;
+}
+
+.footer_content p {
+  padding: 5px 0;
+  font-family: Montserrat;
+}
+
+.copyright {
+  padding: 10px 0;
+  font-family: Montserrat;
+}
+
+/* The footer section ends */
+
+/* inhdex.html starts */
+.h6-index {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+#ill1 {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  width: 100%;
+}
+
+#section1 {
+  background-color: var(--nav-background);
+  border-bottom: 1px solid white;
+  position: relative;
+}
+
+#hr1 {
+  margin-left: 6em;
+  width: 30%;
+}
+
+#txt1 {
+  margin: 0 10% 0 10%;
+  border: 1px solid black;
+  background-color: white;
+  padding-bottom: 50px;
+  position: absolute;
+  top: 80%;
+}
+
+#title1 h6 {
+  padding: 5% 20% 3% 10%;
+  font-size: 3em;
+  font-family: Montserrat;
+}
+
+#desc1 {
+  font-size: 2em;
+  font-weight: 900;
+  padding: 3% 10% 2% 10%;
+  font-family: Montserrat;
+}
+
+#zoom-opa-ef {
+  display: inline-block;
+  padding-bottom: 4em;
+  background-color: var(--nav-background);
+}
+
+#zoom-opa-ef:hover .watch {
+  opacity: 100%;
+}
+
+.watch-outline {
+  color: #fff;
+  text-align: center;
+  display: block;
+  background-color: black;
+  width: 20%;
+  height: 6em;
+  float: left;
+  padding: 30% 0 40% 0;
+}
+
+.watch {
+  display: inline;
+  margin: auto;
+  padding-top: 2em;
+  width: 90%;
+  transition: 1.5s;
+  opacity: 70%;
+}
+
+.watch:hover {
+  cursor: pointer;
+  display:block;
+  width: 100%;
+  margin: auto;
+  padding-top: 0;
+  opacity: 100%;
+}
+
+#section2 {
+  padding: 10% 0 25% 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  background-color: #fff;
+}
+
+.title2 h6 {
+  font-size: 2.2em;
+  padding: 6% 12% 4% 12%;
+  font-family: Montserrat;
+}
+
+#txt2 {
+  margin: 0 10%;
+  border: 1px solid black;
+  position: absolute;
+    top: 55%; 
+  background-color: white;
+  position: absolute;
+}
+
+.desc2 {
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 4% 12% 6% 12%;
+  font-family: Montserrat;
+}
+
+#title2 h6 {
+  font-size: 1em;
+}
+
+#ill2 img {
+  display: block;
+  width: 92%;
+  border: 1px solid black;
+  margin: 0 4%;
+}
+
+.hr2 {
+  margin: 0 12%;
+  width: 30%;
+}
+
+#section3 {
+  padding: 10% 0 25% 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  background-color: #fff;
+}
+
+#ill3 img {
+  display: block;
+  width: 92%;
+  border: 1px solid black;
+  margin: 0 4%;
+}
+
+#txt3 {
+  margin: 0 10%;
+  border: 1px solid black;
+  position: absolute;
+    top: 55%; 
+  background-color: white;
+  position: absolute;
+}
+
+#section4 {
+  display: block;
+  float: left;
+  margin-bottom: 8%;
+  padding-bottom: 10%;
+  position: relative;
+  background-color: #fff;
+}
+
+#ill4 {
+  display: block;
+  width: 90%;
+  margin: 10% auto;
+  border: 1px solid black;
+}
+
+#txt4 {
+  display: block;
+  margin: 0 15%;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+    top: 64%;
+  min-width: 70%;
+}
+
+#title4 h6 {
+  padding: 6% 10% 2% 10%;
+  font-family: Montserrat;
+}
+
+#desc4 {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding: 5% 10%;  
+  font-family: Montserrat;
+}
+
+#hr4 {
+  width: 40%;
+  margin-left: 10%;
+}
+
+@media (max-width: 740px) {
+  #hr1 {
+    margin-left: 5%;
+  }
+  #title1 h6 {
+    padding-left: 5%;
+  }
+  #txt1 {
+    top: 85%;
+    margin: 0 5% 0 5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+  #title1 {
+    font-size: 0.8em;
+  }
+  #desc1 {
+    font-size: 1em;
+    padding: 3% 5% 3% 5%;
+  }
+  .watch-outline {
+    width: 100%;
+    height: 40em;
+  }
+  .watch {
+    margin: auto;
+    width: 40%;
+    transition: 1.5s;
+    opacity: 100%;
+  }
+  .watch:hover {
+    width: 40%;
+    margin: auto;
+    padding-top: 0;
+    opacity: 100%;
+  }
+  section div p {
+    font-size: 1em;
+  }
+
+  #section2 {
+    padding: 25% 0;
+    width: 100%;
+  }  
+  #section3 {
+    padding: 25% 0;
+    width: 100%;
+  }
+  #section4 {
+    margin-bottom: 20%;
+  }
+  #txt4 {
+    margin: 0 15%;
+      top: 55%;
+  }
+  #title4 h6 {
+    font-size: 1.8em;
+  }
+  #desc4 {
+    font-size: 1.3em;
+  }
+}
+/* inhdex.html ends */
+
+/* product.html starts */
+/* product.html ends */
+
+/* about.html starts */
+
+	/*	The container "About Us" section starts.	*/
+
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		background-color: #ffffff;
+	}
+
+	#container #Introduction h1 {
+		text-align: center;
+		padding: 1em auto;
+		margin-top: 1em;
+		font-family: sans-serif;
+		font-weight: 900;
+		font-size: 40px;
+		letter-spacing: 3px;
+	}
+
+	#container #Introduction p {
+		text-align: center;
+		margin: 1em auto;
+		width: 50vw;
+		max-width: 620px;
+		font-family: serif;
+		font-size: large;
+	}
+
+	#container #purple_line {
+		height: 1.5px;
+		border-radius: 45px;
+		width: 60px;
+		background-color: #ff0000;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	#container #box_container {
+		padding: 20px 40px;
+	}
+
+	#container #box_container .box {
+		border-radius: 25px;
+		border: 2px solid var(--nav-background);
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 50px;
+	}
+
+	#container .box_line {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	/* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
+
+	#container dt {
+		padding-left: 25px;
+		font-size: 120%;
+		font-family: serif;
+		line-height: 2;
+		font-weight: bolder;
+		padding-top: 30px;
+	}
+
+	#container dd {
+		/* Description information */
+		line-height: 2;
+		font-family: serif;
+		width: 410px;
+	}
+
+	#container .term {
+		width: 170px;
+		float: left;
+		font-family: serif;
+		text-decoration: underline;
+		text-indent: 50px;
+	}
+
+	#container a {
+		font-family: serif;
+		box-shadow: inset 0 0 0 0 #7068a4;
+		/* Replacing #54b3d6 */
+		color: #7068a4;
+		/* Replacing #54b3d6 */
+		margin: 0 -.25rem;
+		padding: 0 .25rem;
+		transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+		/* Replacing both 0.3s */
+	}
+
+	#container a:hover {
+		box-shadow: inset 500px 0 0 0 #7068a4;
+		/* Replacing #54b3d6 */
+		color: white;
+	}
+
+	#container figure {
+		float: right;
+		width: 210px;
+		height: 280px;
+		margin-top: 30px;
+	}
+
+	#container .center {
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		/*	https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/	*/
+	}
+
+	#container img {
+		width: 210px;
+		height: auto;
+		border-radius: 25px;
+		border: 20px double #7068a4;
+		/* Coloring border */
+	}
+
+	#container table,
+	#container th,
+	#container td {
+		border: 1px solid black;
+		/* Table details*/
+		border-collapse: collapse;
+		table-layout: fixed;
+		width: 80%;
+		line-height: 2;
+		padding: 5px;
+		margin: 35px auto;
+	}
+
+	#container th {
+		background-color: #7068a4;
+		font-family: serif;
+		font-weight: bolder;
+	}
+
+	#container .subject {
+		color: #7068a4;
+		font-family: serif;
+	}
+
+	#container td {
+		/* Table data */
+		text-align: center;
+		font-family: serif;
+		border-top: none;
+		border-bottom: none;
+		font-size: small;
+		background-color: #dddddd;
+	}
+
+	@media (max-width: 740px) {
+		#container table {
+			margin-left: -30px;
+		}
+
+		#container .term {
+			width: 140px;
+			text-indent: 40px;
+		}
+
+		#container figure {
+			width: 150px;
+			height: 215px;
+		}
+
+		#container img {
+			width: 150px;
+		}
+
+		#container dd {
+			width: 400px;
+			font-size: 80%;
+		}
+
+		#container dt {
+			font-size: 100%;
+		}
+
+		#container table, th, td {
+			margin: 20px auto;
+		}
+	}
+
+		/*	The container "About Us" section ends.	*/
+    
+/* about.html ends */
+
+/* enhancements.html starts */
+#enhance_container {
+  background-color: white;
+  min-height: 80vh;
+}
+
+#enhance_content {
+  border: 1px solid var(--nav-background);
+  padding: 30px 100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#enhance_content ol li {
+  margin: 20px 0;
+}
+
+#enhance_content ol a {
+  text-decoration: none;
+}
+/* enhancements.html ends */
+
+
+
+/* The product section starts */
+#product_h1 {
+  font: 45px Arial, sans-serif;
+  line-height: 64px;
+  color: #100C08;
+}
+
+#product_h2 {
+  font-size: 40px;
+  line-height: 54px;
+  color: #100C08;
+}
+
+h4.product_h4 {
+  font-size: 19px;
+  color: #100C08;
+}
+
+
+#product_0h6 {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: 12px;
+}
+

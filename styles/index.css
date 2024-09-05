@@ -1,0 +1,270 @@
+/* inhdex.html starts */
+.h6-index {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+#index {
+  color: var(--nav-active);
+}
+#index::after {
+  background-color: var(--nav-active);
+}
+
+#ill1 {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  width: 100%;
+}
+
+#section1 {
+  background-color: var(--nav-background);
+  border-bottom: 1px solid white;
+  position: relative;
+}
+
+#hr1 {
+  margin-left: 6em;
+  width: 30%;
+}
+
+#txt1 {
+  margin: 0 10% 0 10%;
+  border: 1px solid black;
+  background-color: white;
+  padding-bottom: 50px;
+  position: absolute;
+  top: 80%;
+}
+
+#title1 h6 {
+  padding: 5% 20% 3% 10%;
+  font-size: 3em;
+  font-family: Montserrat;
+}
+
+#desc1 {
+  font-size: 2em;
+  font-weight: 900;
+  padding: 3% 10% 2% 10%;
+  font-family: Montserrat;
+}
+
+#zoom-opa-ef {
+  display: inline-block;
+  padding-bottom: 4em;
+  background-color: var(--nav-background);
+}
+
+#zoom-opa-ef:hover .watch {
+  opacity: 100%;
+}
+
+.watch-outline {
+  color: #fff;
+  text-align: center;
+  display: block;
+  background-color: black;
+  width: 20%;
+  height: 6em;
+  float: left;
+  padding: 30% 0 40% 0;
+}
+
+.watch {
+  display: inline;
+  margin: auto;
+  padding-top: 2em;
+  width: 90%;
+  transition: 1.5s;
+  opacity: 70%;
+}
+
+.watch:hover {
+  cursor: pointer;
+  display:block;
+  width: 100%;
+  margin: auto;
+  padding-top: 0;
+  opacity: 100%;
+}
+
+#section2 {
+  padding: 10% 0 25% 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  background-color: #fff;
+}
+
+.title2 h6 {
+  font-size: 2.2em;
+  padding: 6% 12% 4% 12%;
+  font-family: Montserrat;
+}
+
+#txt2 {
+  margin: 0 10%;
+  border: 1px solid black;
+  position: absolute;
+    top: 55%; 
+  background-color: white;
+  position: absolute;
+}
+
+.desc2 {
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 4% 12% 6% 12%;
+  font-family: Montserrat;
+}
+
+#title2 h6 {
+  font-size: 1em;
+}
+
+#ill2 img {
+  display: block;
+  width: 92%;
+  border: 1px solid black;
+  margin: 0 4%;
+}
+
+.hr2 {
+  margin: 0 12%;
+  width: 30%;
+}
+
+#section3 {
+  padding: 10% 0 25% 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  background-color: #fff;
+}
+
+#ill3 img {
+  display: block;
+  width: 92%;
+  border: 1px solid black;
+  margin: 0 4%;
+}
+
+#txt3 {
+  margin: 0 10%;
+  border: 1px solid black;
+  position: absolute;
+    top: 55%; 
+  background-color: white;
+  position: absolute;
+}
+
+#section4 {
+  display: block;
+  float: left;
+  margin-bottom: 8%;
+  padding-bottom: 10%;
+  position: relative;
+  background-color: #fff;
+}
+
+#ill4 {
+  display: block;
+  width: 90%;
+  margin: 10% auto;
+  border: 1px solid black;
+}
+
+#txt4 {
+  display: block;
+  margin: 0 15%;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+    top: 64%;
+  min-width: 70%;
+}
+
+#title4 h6 {
+  padding: 6% 10% 2% 10%;
+  font-family: Montserrat;
+}
+
+#desc4 {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding: 5% 10%;  
+  font-family: Montserrat;
+}
+
+#hr4 {
+  width: 40%;
+  margin-left: 10%;
+}
+
+@media (max-width: 740px) {
+  #hr1 {
+    margin-left: 5%;
+  }
+  #title1 h6 {
+    padding-left: 5%;
+  }
+  #txt1 {
+    top: 85%;
+    margin: 0 5% 0 5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+  #title1 {
+    font-size: 0.8em;
+  }
+  #desc1 {
+    font-size: 1em;
+    padding: 3% 5% 3% 5%;
+  }
+  .watch-outline {
+    width: 100%;
+    height: 40em;
+  }
+  .watch {
+    margin: auto;
+    width: 40%;
+    transition: 1.5s;
+    opacity: 100%;
+  }
+  .watch:hover {
+    width: 40%;
+    margin: auto;
+    padding-top: 0;
+    opacity: 100%;
+  }
+  section div p {
+    font-size: 1em;
+  }
+
+  #section2 {
+    padding: 25% 0;
+    width: 100%;
+  }  
+  #section3 {
+    padding: 25% 0;
+    width: 100%;
+  }
+  #section4 {
+    margin-bottom: 20%;
+  }
+  #txt4 {
+    margin: 0 15%;
+      top: 55%;
+  }
+  #title4 h6 {
+    font-size: 1.8em;
+  }
+  #desc4 {
+    font-size: 1.3em;
+  }
+}
+/* index.html ends */

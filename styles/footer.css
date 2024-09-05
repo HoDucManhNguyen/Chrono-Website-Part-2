@@ -1,0 +1,27 @@
+/* The footer section starts */
+footer {
+    display: block;
+    width: 100%;
+    font-size: small;
+    padding: 20px 0px;
+    background-color: var(--nav-background);
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.contact {
+    padding: 10px 0;
+    font-family: Montserrat;
+}
+
+.footer_content p {
+    padding: 5px 0;
+    font-family: Montserrat;
+}
+
+.copyright {
+    padding: 10px 0;
+    font-family: Montserrat;
+}
+/* The footer section ends */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enhancements page">
+    <meta name="keywords" content="HTML5/CSS">
+    <meta name="author" content="Duy Khang Nguyen">
+    <title>Enhancements page</title>
+    <link href="styles/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--The header section starts-->
+    <header>
+        <a class="logo" href="#">CHRONO</a>
+        <nav>
+            <input id="check" type="checkbox">
+            <label class="checkbtn" for="check">
+                <span id="div-container">
+                    <span class="menu-button"></span>
+                    <span class="menu-button"></span>
+                    <span class="menu-button"></span>
+                </span>
+            </label>
+
+            <ul id="nav_bar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">WATCHES</a></li>
+                <li><a href="enquire.html">ENQUIRY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a class="active" href="enhancements.html">ENHANCEMENTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--The header section ends-->
+    <section id="enhance_container">
+        <div id="enquire_intro">
+            <h1>ENHANCEMENTS PAGE</h1>
+            <div id="enquiry_text">
+                <p>This is the page where we show our enhancement features. We made 3 enhancements in total.</p>
+            </div>
+            <div id="red_line"></div>
+        </div>
+
+        <div id="enhance_content">
+            <ol>
+                <a href="enquire.html" target="blank"><li>Responsive</li></a>
+                <p>- We have made every pages responsive by using media query. Certain elements will change when the screen width is less than 740px. In the link to enquire.html above, you can see the form changes from 2 collumns into one when the width is below 740px.</p>
+                <a href="#"><li>Navigation's underline appears when hover</li></a>
+                <p>- As you can see at our navigation bar, not only the line appears whenever the house hovers on an element, but the line actually appears from left to right. This gives customers a very pleasing and clean effect on our web page. We done this by using pseudo elements ::after to create the line. We then set position of the navigation item to relative in order to place the line in the appropriate position. Finally, we set original line's width as 0 then it can extend out to the wanted length when hover by using transition time.</p>
+                <a href="enquire.html#button_container" target="_blank"><li>Color-changing button</li></a>
+                <p>- We applied the same method to our button. We still use the pseudo element after to create a rectangle with the same size, positioning at the same place as the original button. We then have its width at 0 to begin with and transition out changing the background color whenever the button is hovered on.</p>
+            </ol>
+        </div>
+    </section>
+    <!--The footer section starts-->
+    <footer>
+        <h4 class="contact">CONTACT</h4>
+        <div class="footer_content">
+            <p>Address: A35 Bach Dang St, Ho Chi Minh city</p>
+            <p>Phone: (+84) 38-748-2345</p>
+            <p>Hours: 8:00 - 22:00, Mon - Sun</p>
+        </div>
+        <p class="copyright">© 2023 CHRONO</p>
+    </footer>
+    <!--The footer section ends-->
+</body>
+
+</html>

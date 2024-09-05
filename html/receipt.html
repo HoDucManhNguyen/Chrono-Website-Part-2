@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Receipt">
+    <meta name="keywords" content="HTML5">
+    <meta name="author" content="Le Minh Bani-Hashemi">
+    <link href="/styles/receipt.css" rel="stylesheet">
+    <link href="/styles/header.css" rel="stylesheet">
+    <link href="/styles/style.css" rel="stylesheet">
+    <title>Receipt</title>
+</head>
+
+<body id="barney_receipt">
+
+    <!-- The header section starts -->
+    <header>
+        <a class="logo" href="#">CHRONO</a>
+        <nav>
+            <input id="check" type="checkbox">
+            <label class="checkbtn" for="check">
+                <span id="div-container">
+                    <span class="menu-button"></span>
+                    <span class="menu-button"></span>
+                    <span class="menu-button"></span>
+                </span>
+            </label>
+
+            <ul id="nav_bar">
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="product.php">WATCHES</a></li>
+                <li><a href="payment.php">ORDER</a></li>
+                <li><a href="about.php">ABOUT</a></li>
+                <li><a href="enhancements.php">ENHANCEMENTS</a></li>
+                <li><a href="manager.php">MANAGER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The header section ends -->
+
+    <!-- The container section starts -->
+
+    <section id="barney_receipt_container">
+        <div id="Introduction">
+            <h2> RECEIPT PAGE </h2>
+            <p> Your order is on the way shortly </p>
+            <p> Order confirmation will be sent through email </p>
+        </div>
+
+        <div id="red_line"></div>
+
+        <section id="barney_receipt_information">
+            <dl>
+                <dt> Personal Information </dt>
+                <dd><span class="term">Name:</span> Minh Le Bani-Hashemi </dd>
+                <dd><span class="term">Email:</span> 123@gmail.com </dd>
+                <dd><span class="term">Phone Number:</span> 0912345678 </dd>
+            </dl>
+
+            <dl>
+                <dt> Shipping Information </dt>
+                <dd><span class="term">Address:</span> 62 Yen The Street, Ward 2, Tan Binh District </dd>
+                <dd><span class="term">City:</span> Ho Chi Minh </dd>
+                <dd><span class="term">State:</span> Washington </dd>
+                <dd><span class="term">Postcode:</span> 98512 </dd>
+            </dl>
+
+            <dl>
+                <dt> Product </dt>
+                <dd><span class="term">Watch:</span> Zeleth </span></dd>
+                <dd><span class="term">Quantity:</span> 1 </dd>
+            </dl>
+
+            <dl>
+                <dt> Order </dt>
+                <dd><span class="term">Order ID:</span> 123 </dd>
+                <dd><span class="term">Order Status:</span> Complete </dd>
+                <dd><span class="term">Order Date:</span> 1 Jan 2030 </dd>
+                <dd><span class="term">Card Name:</span> Minh Le Bani-Hashemi </dd>
+                <dd><span class="term">Card Type:</span> Mastercard </dd>
+                <dd><span class="term">Card Number:</span> **** **** **** 1234 </dd>
+            </dl>
+
+        </section>
+
+        <div id="after_container">
+            <a class="button_type" href="index.php">BACK TO HOMEPAGE</a>
+            <a class="button_type" href="payment.php">CONTINUE SHOPPING</a>
+        </div>
+
+        <!-- The container section starts -->
+
+        <!--The footer section starts-->
+
+        <footer>
+            <h4 class="contact">CONTACT</h4>
+            <div class="footer_content">
+                <p>Address: A35 Bach Dang St, Ho Chi Minh city</p>
+                <p>Phone: (+84) 38-748-2345</p>
+                <p>Hours: 8:00 - 22:00, Mon - Sun</p>
+            </div>
+            <p class="copyright">© 2023 CHRONO</p>
+        </footer>
+
+        <!--The footer section ends-->
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+:root {
+    --nav-background: #1A001A;
+    --nav-active: #7068a4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.8px;
+    font-family: sans-serif;
+}

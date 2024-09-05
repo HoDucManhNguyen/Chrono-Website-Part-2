@@ -1,0 +1,103 @@
+#barney_receipt_container #Introduction h2 {
+    text-align: center;
+    padding: 1em auto;
+    margin-top: 1em;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+#barney_receipt_container #Introduction p {
+    text-align: center;
+    margin: 1em auto;
+    width: 50vw;
+    max-width: 620px;
+    font-family: serif;
+    font-size: large;
+}
+
+#barney_receipt_container #red_line {
+    height: 1.5px;
+    border-radius: 45px;
+    width: 60px;
+    background-color: red;
+    margin: 0px auto 50px auto;
+}
+
+#barney_receipt_container #barney_receipt_information {
+    margin: auto;
+    width: 35%;
+    border: 3px solid var(--nav-background);;
+    padding: 10px 10px 0 10px;
+}
+
+#barney_receipt_container #barney_receipt_information dl {
+    font-size: large;
+    padding-left: 20px;
+    font-family: serif;
+    padding-bottom: 15px;
+}
+
+#barney_receipt_container #barney_receipt_information dt {
+    color: #7068a4;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+
+#barney_receipt_container #barney_receipt_information dd {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+
+#barney_receipt_container #barney_receipt_information dd .term {
+    font-weight: bolder;
+    font-family: serif;
+    width: 200px;
+    float: left;
+}
+
+#barney_receipt_container #after_container {
+    justify-content: center;
+    display: flex;
+    height: 150px;
+}
+
+#barney_receipt_container #after_container .button_type {
+    text-align: center;
+    padding: 5px;
+    padding-top: 18px;
+    margin: 50px 30px;
+    width: 250px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: smaller;
+    color: white;
+    background-color: var(--nav-background);
+    border: none;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+#barney_receipt_container #after_container .button_type::after {
+    content: "";
+    background: var(--nav-active);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 430ms ease-in;
+}
+
+#barney_receipt_container #after_container .button_type:hover::after {
+    transform: scaleX(1);
+}
