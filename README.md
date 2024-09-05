@@ -57,6 +57,31 @@ Add more form inputs to include **credit card** payment details:
   + Credit card type (e.g. Visa, Mastercard, American Express) – no valid default
 selection
   + Name on credit card
+  + Credit card number
+  + Credit card expiry date (mm-yy)
+  + Card verification value (CVV)
+* Have a ‘submit’ button with caption ‘Check Out’ </br>
+
+Set the “payment.php” form action to “process_order.php”. When a customer decides to proceed with the order, a **Check Out**  button should submit the form, and all the customer and product information to the server-side script. (So you check that all name-value data has been correctly submitted.)
+
+#### 4.2 Disable HTML validation
+
+While client-side validation using HTML5 was used in previous assignments, in order to preserve the integrity of the server data, server-side data format checking should be implemented. </br>
+
+In this assignment HTML5 form validation will be disabled. </br>
+
+So we can test that server-side validation works correctly:
+* Add the **novalidate="novalidate"** (or simply **novalidate**) attribute into your forms, to disable client- side HTML5.
+
+### 5. Processing Orders “process_order.php”
+
+Ensure the “payment.php” form action to “process_order.php”. Having disabled HTML5 form data validation, all form data format checking will now be implemented server-side, using PHP, after the data has been submitted by “payment.php”:
+* All values received by “process_order.php” should be sanitized to remove leading and trailing spaces, backslashes and HTML control characters.
+* Before an order is written to the **orders** table the data format rules need to be checked. These rules include rules specified in Part 1 (for customer details), rules for credit card (shown below) and other rules you think appropriate:
+  + Credit card type must be one of Visa, Mastercard, or American Express
+  + Creditcardnumber:exactly15or16digits.Creditcardnumbersmustbechecked against the selected card type according to the following rules:
+    * Visacardshave16digitsandstartwitha4
+
 
 
 
