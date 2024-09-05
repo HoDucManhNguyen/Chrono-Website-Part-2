@@ -142,10 +142,64 @@ Examples of PHP / MySQL enhancements:
 * Create Manager security, with a “Manager registration” page with server side validation requiring a unique username and a password rule, and store this information in a table. Create a “Manager Log-in” page to use the stored data, and control access to the manager web pages. Ensure the manager web page cannot be entered directly using a URL. </br>
 Create a “Manager Log-out” page. Provide a ‘log-out’ link on the manager page if ‘logged in’.
 * Provide a number of more advanced Manager reports based on compound queries. </br>
-For example
-* the most popular product ordered
-* fulfilled orders purchased between two dates the vendor enters othe average number of orders per day
+For example:
+  + the most popular product ordered
+  + fulfilled orders purchased between two dates the vendor enters othe average number of orders per day
+
+* On the table on the Manager page, provide the ability to select a column heading, and re-sort the table in the order of that field. If selected again, reverse the order.
+* Store customers’ details in a separate ‘customers’ data table and create a primary- foreign key link between the ‘customers’ and ‘orders’ tables.
+* Store the product details and options in a separate ‘products’ data table, and dynamically fill the product page with that data. </br>
+
+Up to two enhancements will be assessed, i.e., up to 20 marks will be awarded for enhancements.
+
+## Web Site Folder Structure and Deployment Requirements
+
+Your website folder structure should follow a similar structure as in Part 1 and 2. All files should be under a folder /assign2.
+
+<img width="529" alt="Screenshot 2024-09-05 at 6 53 54 PM" src="https://github.com/user-attachments/assets/db62da2c-d746-4323-b408-72f9778712e8">
+
+#### Notes:
+
+* PHP/HTML files should only be in the base “assign2/” folder – not anywhere else.
+* All links to your files (includes, CSS or images) should be relative. Do not use absolute links, as these links will be broken when files are transferred for
+marking. No marks will be allocated if links are broken.
+
+## Demo Pictures of Product
+
   
+<img width="344" alt="Screenshot 2024-09-05 at 6 55 15 PM" src="https://github.com/user-attachments/assets/701cfd4b-7709-4061-babe-e4b745e3a38d">
+
+<img width="345" alt="Screenshot 2024-09-05 at 6 55 29 PM" src="https://github.com/user-attachments/assets/aed4cb8c-c6c7-4afd-9631-31f3fe07118c">
+
+<img width="345" alt="Screenshot 2024-09-05 at 6 55 42 PM" src="https://github.com/user-attachments/assets/b4bdc820-3f63-4e58-ae09-24b4a445ba21">
+
+<img width="344" alt="Screenshot 2024-09-05 at 6 55 55 PM" src="https://github.com/user-attachments/assets/fd46ecf8-329d-4294-9390-43e8913dc00c">
+
+<img width="344" alt="Screenshot 2024-09-05 at 6 56 05 PM" src="https://github.com/user-attachments/assets/186ba21f-0c7e-40a3-a3cc-5331119db460">
+
+<img width="344" alt="Screenshot 2024-09-05 at 6 56 19 PM" src="https://github.com/user-attachments/assets/e7e67c7d-abc5-4461-b84b-186ab94e84b6">
+
+<img width="342" alt="Screenshot 2024-09-05 at 6 56 37 PM" src="https://github.com/user-attachments/assets/32e2afb9-7b8c-48ea-8930-3667d642d3ff">
+
+<img width="345" alt="Screenshot 2024-09-05 at 6 56 51 PM" src="https://github.com/user-attachments/assets/44dec4cf-179b-4442-80eb-f9b8ab15bbd0">
+
+<img width="344" alt="Screenshot 2024-09-05 at 6 57 03 PM" src="https://github.com/user-attachments/assets/0d14bad2-2009-4313-bae6-f802b33b1e66">
+
+<img width="358" alt="Screenshot 2024-09-05 at 6 57 14 PM" src="https://github.com/user-attachments/assets/bdf2f7e3-68d6-482d-bfd1-f08cd50c2e04">
+
+<img width="358" alt="Screenshot 2024-09-05 at 6 57 27 PM" src="https://github.com/user-attachments/assets/893ed88a-e497-4931-99c4-94c870cfb1e7">
+
+
+## Authors
+
+Name: Manh Nguyen (Harry) </br>
+Email: manhnhd.vn@gmail.com </br>
+LinkedIn: https://www.linkedin.com/in/harrryy/
+
+
+
+
+
 
 
 
