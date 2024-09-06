@@ -167,9 +167,29 @@ marking. No marks will be allocated if links are broken.
 ## Demo Pictures of Product
 
   
-<img width="1176" alt="Screenshot 2024-09-05 at 7 00 51 PM" src="https://github.com/user-attachments/assets/c4f96f21-cecf-49ba-91ba-ec6ec13bcb55">
+<img width="1166" alt="Screenshot 2024-09-05 at 7 00 51 PM" src="https://github.com/user-attachments/assets/c4f96f21-cecf-49ba-91ba-ec6ec13bcb55">
 
-<img width="1165" alt="Screenshot 2024-09-05 at 7 02 31 PM" src="https://github.com/user-attachments/assets/b7826461-da4d-4a0b-a1e7-c81871e2c709">
+<img width="1166" alt="Screenshot 2024-09-05 at 7 02 31 PM" src="https://github.com/user-attachments/assets/b7826461-da4d-4a0b-a1e7-c81871e2c709">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 02 55 PM" src="https://github.com/user-attachments/assets/06737109-919b-4402-b8fa-8ad6e392df42">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 03 13 PM" src="https://github.com/user-attachments/assets/0df769f0-1b83-4d43-ae07-796f728df67b">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 03 32 PM" src="https://github.com/user-attachments/assets/1c906f44-5b57-4bf6-be22-86c5f9412468">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 03 46 PM" src="https://github.com/user-attachments/assets/27d38da4-dc21-4def-b302-631aa4ee1196">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 03 59 PM" src="https://github.com/user-attachments/assets/6bc68e01-5c99-486e-9f67-2b77f7b6dfe4">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 04 23 PM" src="https://github.com/user-attachments/assets/2142cacd-c816-4d20-a26c-4f427db95d3e">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 04 56 PM" src="https://github.com/user-attachments/assets/58885411-58bd-4657-9a0e-30b6179ec495">
+
+<img width="1166" alt="Screenshot 2024-09-05 at 7 05 17 PM" src="https://github.com/user-attachments/assets/8ceeaf02-cde8-46e7-acf7-e3df5dd21972">
+
+<img width="11166" alt="Screenshot 2024-09-05 at 7 05 37 PM" src="https://github.com/user-attachments/assets/c887c946-2fa7-4a7a-b11d-e64da527d03a">
+
+
 
 
 
