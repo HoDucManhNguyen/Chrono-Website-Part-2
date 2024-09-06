@@ -167,27 +167,8 @@ marking. No marks will be allocated if links are broken.
 ## Demo Pictures of Product
 
   
-<img width="344" alt="Screenshot 2024-09-05 at 6 55 15 PM" src="https://github.com/user-attachments/assets/701cfd4b-7709-4061-babe-e4b745e3a38d"> </br>
+<img width="1176" alt="Screenshot 2024-09-05 at 7 00 51 PM" src="https://github.com/user-attachments/assets/c4f96f21-cecf-49ba-91ba-ec6ec13bcb55">
 
-<img width="345" alt="Screenshot 2024-09-05 at 6 55 29 PM" src="https://github.com/user-attachments/assets/aed4cb8c-c6c7-4afd-9631-31f3fe07118c"> </br>
-
-<img width="345" alt="Screenshot 2024-09-05 at 6 55 42 PM" src="https://github.com/user-attachments/assets/b4bdc820-3f63-4e58-ae09-24b4a445ba21"> </br>
-
-<img width="344" alt="Screenshot 2024-09-05 at 6 55 55 PM" src="https://github.com/user-attachments/assets/fd46ecf8-329d-4294-9390-43e8913dc00c"> </br>
-
-<img width="344" alt="Screenshot 2024-09-05 at 6 56 05 PM" src="https://github.com/user-attachments/assets/186ba21f-0c7e-40a3-a3cc-5331119db460"> </br>
-
-<img width="344" alt="Screenshot 2024-09-05 at 6 56 19 PM" src="https://github.com/user-attachments/assets/e7e67c7d-abc5-4461-b84b-186ab94e84b6"> </br>
-
-<img width="342" alt="Screenshot 2024-09-05 at 6 56 37 PM" src="https://github.com/user-attachments/assets/32e2afb9-7b8c-48ea-8930-3667d642d3ff"> </br>
-
-<img width="345" alt="Screenshot 2024-09-05 at 6 56 51 PM" src="https://github.com/user-attachments/assets/44dec4cf-179b-4442-80eb-f9b8ab15bbd0"> </br>
-
-<img width="344" alt="Screenshot 2024-09-05 at 6 57 03 PM" src="https://github.com/user-attachments/assets/0d14bad2-2009-4313-bae6-f802b33b1e66"> </br>
-
-<img width="358" alt="Screenshot 2024-09-05 at 6 57 14 PM" src="https://github.com/user-attachments/assets/bdf2f7e3-68d6-482d-bfd1-f08cd50c2e04"> </br>
-
-<img width="358" alt="Screenshot 2024-09-05 at 6 57 27 PM" src="https://github.com/user-attachments/assets/893ed88a-e497-4931-99c4-94c870cfb1e7"> </br>
 
 
 ## Authors
