@@ -1,5 +1,13 @@
 # Chrono-Website
 
+## Table of Contents
+
+- [Purpose of the Assignment](#Purpose-of-the-Assignment)
+- [Specified Requirements](#Specified-Requirements)
+- [Demo Pictures of Product](#Demo-Pictures-of-Product)
+- [Link Demo](#Link-Demo)
+- [Authors](#Authors)
+
 ## Purpose of the Assignment
 
 To gain practical skills and knowledge in coding and using PHP server-side embedded scripting to extend the functionality of the website you developed in Part 1, by creating dynamic webpage content, accessing a separate MySQL database server, and using PHP to connect to this MySQL server. </br>
