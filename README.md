@@ -15,7 +15,7 @@
 - [CSS Styling](#css-styling)
 - [Enhancements](#enhancements)
 - [Folder Structure](#folder-structure)
-- [Demo & Screenshots](#demo--screenshots)
+- [Demo](#demo)
 - [Authors](#authors)
 
 ## Project Overview
@@ -110,20 +110,13 @@ assign2/
 - **All primary PHP/HTML scripts** reside within the `assign2/` directory.
 - **Relative pathing conventions** ensure cross-environment compatibility.
 
-## Demo & Screenshots
+## Demo
 ### Live Demonstration
 [Click Here](https://www.youtube.com/watch?v=Aln_md8Be24) to access a video demonstration of the system's functionality.
 
-### Screenshots
-Below are visual representations of the platform’s interface:
-![Screenshot 1](https://github.com/user-attachments/assets/c4f96f21-cecf-49ba-91ba-ec6ec13bcb55)
-![Screenshot 2](https://github.com/user-attachments/assets/b7826461-da4d-4a0b-a1e7-c81871e2c709)
-![Screenshot 3](https://github.com/user-attachments/assets/06737109-919b-4402-b8fa-8ad6e392df42)
-![Screenshot 4](https://github.com/user-attachments/assets/0df769f0-1b83-4d43-ae07-796f728df67b)
-![Screenshot 5](https://github.com/user-attachments/assets/1c906f44-5b57-4bf6-be22-86c5f9412468)
 
 ## Authors
 **Manh Nguyen (Harry)**  
 📧 Email: [manhnhd.vn@gmail.com](mailto:manhnhd.vn@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/harrryy](https://www.linkedin.com/in/harrryy/)
+🔗 LinkedIn: [Manh Nguyen](https://www.linkedin.com/in/harrryy/)
 
