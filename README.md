@@ -115,8 +115,9 @@ assign2/
 [Click Here](https://www.youtube.com/watch?v=Aln_md8Be24) to access a video demonstration of the system's functionality.
 
 
-## Authors
-**Manh Nguyen (Harry)**  
-📧 Email: [manhnhd.vn@gmail.com](mailto:manhnhd.vn@gmail.com)  
+## Author
+
+**Manh Nguyen**\
+📧 Email: [manhnhd.vn@gmail.com](mailto\:manhnhd.vn@gmail.com)\
 🔗 LinkedIn: [Manh Nguyen](https://www.linkedin.com/in/harrryy/)
 
